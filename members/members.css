@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.members {
+    list-style: none;
+    padding: 0;
+}
+.members li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.members a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.members a:hover {
+    color: #004080;
+    text-decoration: underline;
+}

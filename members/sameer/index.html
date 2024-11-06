@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sameer Murthy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+    <style>
+        * {
+            font-family: 'Space Grotesk';
+        }
+    </style>
+    <body class="dark bg-gray-900 p-10">
+        <div class="">
+            <h1 id="nama" class="text-5xl text-emerald-600 tracking-wide font-bold">
+
+            </h1>
+            <h3 class="text-lg text-gray-300 font-mono mt-2">
+                /səmiːɾə ɦɑːɾiːtəsə/
+            </h3>
+        </div>
+        <button class="mt-5 p-3 bg-emerald-800 text-gray-200 rounded-2xl" onclick=" alert('MANGO 🥭')">
+            DONT CLICK ☠️☠️☠️
+        </button>
+    </body>
+    <script>
+        let i = 0;
+        let txt = 'Sameer Haritasa'; /* The text */
+        let speed = 100; /* The speed/duration of the effect in milliseconds */
+
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("nama").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+        typeWriter()
+    </script>
+</html>

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo:ELSH@11.3&display=swap');
+img{
+    width: 370px;
+    border-radius: 20px;
+
+}
+html {
+    --s: 150px; /* control the size*/
+    --c1: #e0f7a1;
+    --c2: #057f07;
+    
+    --_g: 
+       var(--c1) 0%  5% ,var(--c2) 6%  15%,var(--c1) 16% 25%,var(--c2) 26% 35%,var(--c1) 36% 45%,
+       var(--c2) 46% 55%,var(--c1) 56% 65%,var(--c2) 66% 75%,var(--c1) 76% 85%,var(--c2) 86% 95%,
+       #0000 96%;
+    background:
+      radial-gradient(50% 50% at 100% 0,var(--_g)),
+      radial-gradient(50% 50% at 0 100%,var(--_g)),
+      radial-gradient(50% 50%,var(--_g)),
+      radial-gradient(50% 50%,var(--_g)) calc(var(--s)/2) calc(var(--s)/2)
+      var(--c1);
+    background-size: var(--s) var(--s);
+  }
+  .title{
+      background-color: white;
+  width:max-content;
+  padding:10px;
+    margin: 20px;
+  }
+  h1{
+      margin-left:auto;
+      margin-right:auto;
+  }
+  div{
+    padding:40px;
+    margin: 20px;
+    width:min-content;
+    border-radius: 20px;
+  }
+  .hearts{
+  
+        --s: 20px; /* control the size*/
+        --c1: #72c13e;
+        --c2: #0d541f;
+        
+        --_g: 80%,var(--c1) 25.4%,#0000 26%;
+        background:
+         radial-gradient(at 80% var(--_g)),
+         radial-gradient(at 20% var(--_g)),
+         conic-gradient(from -45deg at 50% 41%,var(--c1) 90deg,var(--c2) 0) 
+            calc(var(--s)/2) 0;
+        background-size: var(--s) var(--s);
+      }
+
+ .danfo {
+        font-family: "Danfo", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+          "ELSH" 0;
+      }
